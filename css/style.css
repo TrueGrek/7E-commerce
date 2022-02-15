@@ -21,11 +21,87 @@
 	src: url(fonts/Objective-Regular.woff2); 
 }
 
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .2s ease-in-out;
+    /* добавим плавность переходов для всех элементов страницы*/
+ }
+ ul {
+    list-style: none;
+ }
+ a {
+    text-decoration: none;
+    outline: none;
+ }
+ img {
+    display: block;
+    width: 100%;
+ }
 
+/* переменные */
+:root {
+    --color-blue: #4A99D3;
+  }
+/*  */
 
-button{
-    width:100px;
-    height: 50px;
-    padding: 20px;
-    margin: 30px;
+.body{
+    margin: 0;
+    padding: 0;
 }
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 15px;
+ }
+
+.wide-container{
+    width: 100%;
+    max-width: 100%;
+}
+
+/* header */
+
+.first-block{
+    background: linear-gradient(180deg, #4a9ad357 -17.33%, rgba(74, 153, 211, 0) 75.91%), #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(75, 0, 129, 0.26);
+}
+
+.header{
+    padding-top: 45px;
+    margin-bottom: 71px;
+    height: 42px;
+}
+
+.header-logomenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Objective-Bold';
+    font-size: 40px;
+    line-height: 42px;
+}
+
+.logo-blue{
+    color: var(--color-blue)
+}
+
+.logo-white{
+    color: white;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item:not(:first-child){
+    margin-left: 50px;
+}
+
+
