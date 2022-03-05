@@ -13,7 +13,8 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/slider_owl-start.js"></script>
     <script src="js/slider-owl-button.js"></script>
-    <script></script>
+    <script src="js/YakoryTransition.js"></script>
+    <script src="js/test.js"></script>
 </head>
 <body>
     <section class="first-block">
@@ -21,23 +22,23 @@
             <div class="wide-container">
                 <div class="container header-logomenu">
                     <div class="logo logo-blue">
-                        LOGOBOGO
+                        LOGO
                     </div>
                     <div class="header-nav">
                         <nav>
                             <ul class="nav-list">
                                 <li class="nav-item">
-                                    <a href="" class="nav-item__links  nav-item__active">
+                                    <a href="index.html" class="nav-item__links ty nav-item__active">
                                         Home
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="" class="nav-item__links">
+                                    <a href="#about" class="nav-item__links">
                                         About
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="" class="nav-item__links">
+                                    <a href="conatct.html" class="nav-item__links ty">
                                         Contact Us
                                     </a>
                                 </li>
@@ -64,7 +65,7 @@ best for You</h1>
         </section>
     </section>
     
-    <section class="service">
+    <section class="service" id="about">
         <div class="wide-container service__wide-container">
             <div class="container service-container">
                 <div class="service-first">
@@ -80,7 +81,7 @@ digital era.</h2>
                                 <p class="card-desc">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 </p>
-                                <button class="card-btn">
+                                <button class="card-btn" type="button" onclick="window.location.href = 'w3docs.com';">
                                     <a href="" class="card-btn__a">Learn more</a>
                                     <img src="img/dec/Vector (6).png" alt="" class="card-btn__img">
                                 </button>
@@ -97,7 +98,7 @@ digital era.</h2>
                             <p class="card-desc service-card__card-desc">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <button class="card-btn service-card__card-btn">
+                            <button class="card-btn service-card__card-btn" type="button" onclick="window.location.href = 'w3docs.com';">
                                 <a href="" class="card-btn__a">Learn more</a>
                                 <img src="img/dec/Vector (6).png" alt="" class="card-btn__img">
                             </button>
@@ -112,8 +113,8 @@ digital era.</h2>
                             <p class="card-desc">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             </p>
-                            <button class="card-btn">
-                                <a href="" class="card-btn__a">Learn more</a>
+                            <button class="card-btn" type="button" onclick="window.location.href = 'w3docs.com';">
+                                <a class="card-btn__a">Learn more</a>
                                 <img src="img/dec/Vector (6).png" alt="" class="card-btn__img">
                             </button>
                         </div>
@@ -238,8 +239,8 @@ digital era.</h2>
                     <h4 class="download-h works-h4 sliderr-h3">Download app to enjoy more!</h4>
                     <p class="download-p slider-person__textimonial">Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur turpis elementum amet vitae et etiam nec. Varius volutpat hac adipiscing tincidunt pretium.</p>
                     <div class="hero-btn__block download-btn__block">
-                        <button class="btn-dw2 download-btn"></button>
-                        <button class="btn-dw2 download-btn2"></button>
+                        <button class="btn-dw2 download-btn btn-all"></button>
+                        <button class="btn-dw2 download-btn2 btn-all"></button>
                     </div>
                 </div>
             </div>
@@ -258,34 +259,44 @@ digital era.</h2>
                         <div class="fotter-menu__column fotter-menu__column1">
                             <h6 class="column-title">Quick Links</h6>
                             <ul class="column-list">
-                                <li class="column-item">Sign Up</li>
-                                <li class="column-item">About Us</li>
+                                <li class="column-item">
+                                    <a href="" class="column-item">Sign Up</a></li>
+                                <li class="column-item">
+                                    <a href="" class="column-item">About Us</a></li>
                             </ul>
                         </div>
                         <div class="fotter-menu__column fotter-menu__column2">
                             <h6 class="column-title">Others</h6>
                             <ul class="column-list">
-                                <li class="column-item">User FAQs</li>
-                                <li class="column-item">Contact Us</li>
-                                <li class="column-item">Legal</li>
-                                <li class="column-item">Privacy Policy</li>
-                                <li class="column-item">Terms and Conditions</li>
+                                <li class="column-item">
+                                    <a href="" class="column-item">User FAQs</a></li>
+                                <li class="column-item">
+                                    <a href="" class="column-item">Contact Us</a></li>
+                                <li class="column-item">
+                                    <a href="" class="column-item">Legal</a></li>
+                                <li class="column-item">
+                                    <a href="" class="column-item">Privacy Policy</a></li>
+                                <li class="column-item">
+                                    <a href="" class="column-item">Terms and Conditions</a></li>
                             </ul>
                         </div>
                         <div class="fotter-menu__column fotter-menu__column3">
                             <h6 class="column-title">Products</h6>
                             <ul class="column-list">
-                                <li class="column-item">Send</li>
-                                <li class="column-item">Receive</li>
-                                <li class="column-item">Buy</li>
+                                <li class="column-item">
+                                    <a href="" class="column-item">Send</a></li>
+                                <li class="column-item">
+                                    <a href="" class="column-item">Receive</a></li>
+                                <li class="column-item">
+                                    <a href="" class="column-item">Buy</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="fotter-subscribe">
                         <p class="fotter-subscribe__p">Subscribe to our newsletter and be the first to know about our updates</p>
-                        <form class="fotter-form" action="" method="post">
+                        <form class="fotter-form" id="#footer-form_id" action="" method="post">
                             <input class="fotter-form__input" placeholder="Email Address" type="text">
-                            <button class="fotter-form__btn btn-all">Subscribe</button>
+                            <button form="#footer-form_id" class="fotter-form__btn btn-all">Subscribe</button>
                         </form>
                     </div>
                 </div>
